@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E5BA321DE17A0D00A5FEF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BA311DE17A0D00A5FEF5 /* AppDelegate.swift */; };
+		18E5BA341DE17A0D00A5FEF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BA331DE17A0D00A5FEF5 /* ViewController.swift */; };
+		18E5BA371DE17A0D00A5FEF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E5BA351DE17A0D00A5FEF5 /* Main.storyboard */; };
+		18E5BA3A1DE17A0D00A5FEF5 /* TaxiOnCliq.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BA381DE17A0D00A5FEF5 /* TaxiOnCliq.xcdatamodeld */; };
+		18E5BA3C1DE17A0D00A5FEF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E5BA3B1DE17A0D00A5FEF5 /* Assets.xcassets */; };
+		18E5BA3F1DE17A0D00A5FEF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E5BA3D1DE17A0D00A5FEF5 /* LaunchScreen.storyboard */; };
+		18E5BA4A1DE17A0D00A5FEF5 /* TaxiOnCliqTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BA491DE17A0D00A5FEF5 /* TaxiOnCliqTests.swift */; };
+		18E5BA551DE17A0D00A5FEF5 /* TaxiOnCliqUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E5BA541DE17A0D00A5FEF5 /* TaxiOnCliqUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E5BA461DE17A0D00A5FEF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E5BA261DE17A0D00A5FEF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E5BA2D1DE17A0D00A5FEF5;
+			remoteInfo = TaxiOnCliq;
+		};
+		18E5BA511DE17A0D00A5FEF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E5BA261DE17A0D00A5FEF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E5BA2D1DE17A0D00A5FEF5;
+			remoteInfo = TaxiOnCliq;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E5BA2E1DE17A0D00A5FEF5 /* TaxiOnCliq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiOnCliq.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E5BA311DE17A0D00A5FEF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18E5BA331DE17A0D00A5FEF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18E5BA361DE17A0D00A5FEF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E5BA391DE17A0D00A5FEF5 /* TaxiOnCliq.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaxiOnCliq.xcdatamodel; sourceTree = "<group>"; };
+		18E5BA3B1DE17A0D00A5FEF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E5BA3E1DE17A0D00A5FEF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E5BA401DE17A0D00A5FEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E5BA451DE17A0D00A5FEF5 /* TaxiOnCliqTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiOnCliqTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E5BA491DE17A0D00A5FEF5 /* TaxiOnCliqTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiOnCliqTests.swift; sourceTree = "<group>"; };
+		18E5BA4B1DE17A0D00A5FEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E5BA501DE17A0D00A5FEF5 /* TaxiOnCliqUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiOnCliqUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E5BA541DE17A0D00A5FEF5 /* TaxiOnCliqUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiOnCliqUITests.swift; sourceTree = "<group>"; };
+		18E5BA561DE17A0D00A5FEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E5BA2B1DE17A0D00A5FEF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E5BA421DE17A0D00A5FEF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E5BA4D1DE17A0D00A5FEF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E5BA251DE17A0D00A5FEF5 = {
+			isa = PBXGroup;
+			children = (
+				18E5BA301DE17A0D00A5FEF5 /* TaxiOnCliq */,
+				18E5BA481DE17A0D00A5FEF5 /* TaxiOnCliqTests */,
+				18E5BA531DE17A0D00A5FEF5 /* TaxiOnCliqUITests */,
+				18E5BA2F1DE17A0D00A5FEF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E5BA2F1DE17A0D00A5FEF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E5BA2E1DE17A0D00A5FEF5 /* TaxiOnCliq.app */,
+				18E5BA451DE17A0D00A5FEF5 /* TaxiOnCliqTests.xctest */,
+				18E5BA501DE17A0D00A5FEF5 /* TaxiOnCliqUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E5BA301DE17A0D00A5FEF5 /* TaxiOnCliq */ = {
+			isa = PBXGroup;
+			children = (
+				18E5BA311DE17A0D00A5FEF5 /* AppDelegate.swift */,
+				18E5BA331DE17A0D00A5FEF5 /* ViewController.swift */,
+				18E5BA351DE17A0D00A5FEF5 /* Main.storyboard */,
+				18E5BA3B1DE17A0D00A5FEF5 /* Assets.xcassets */,
+				18E5BA3D1DE17A0D00A5FEF5 /* LaunchScreen.storyboard */,
+				18E5BA401DE17A0D00A5FEF5 /* Info.plist */,
+				18E5BA381DE17A0D00A5FEF5 /* TaxiOnCliq.xcdatamodeld */,
+			);
+			path = TaxiOnCliq;
+			sourceTree = "<group>";
+		};
+		18E5BA481DE17A0D00A5FEF5 /* TaxiOnCliqTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E5BA491DE17A0D00A5FEF5 /* TaxiOnCliqTests.swift */,
+				18E5BA4B1DE17A0D00A5FEF5 /* Info.plist */,
+			);
+			path = TaxiOnCliqTests;
+			sourceTree = "<group>";
+		};
+		18E5BA531DE17A0D00A5FEF5 /* TaxiOnCliqUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18E5BA541DE17A0D00A5FEF5 /* TaxiOnCliqUITests.swift */,
+				18E5BA561DE17A0D00A5FEF5 /* Info.plist */,
+			);
+			path = TaxiOnCliqUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E5BA2D1DE17A0D00A5FEF5 /* TaxiOnCliq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E5BA591DE17A0D00A5FEF5 /* Build configuration list for PBXNativeTarget "TaxiOnCliq" */;
+			buildPhases = (
+				18E5BA2A1DE17A0D00A5FEF5 /* Sources */,
+				18E5BA2B1DE17A0D00A5FEF5 /* Frameworks */,
+				18E5BA2C1DE17A0D00A5FEF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaxiOnCliq;
+			productName = TaxiOnCliq;
+			productReference = 18E5BA2E1DE17A0D00A5FEF5 /* TaxiOnCliq.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E5BA441DE17A0D00A5FEF5 /* TaxiOnCliqTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E5BA5C1DE17A0D00A5FEF5 /* Build configuration list for PBXNativeTarget "TaxiOnCliqTests" */;
+			buildPhases = (
+				18E5BA411DE17A0D00A5FEF5 /* Sources */,
+				18E5BA421DE17A0D00A5FEF5 /* Frameworks */,
+				18E5BA431DE17A0D00A5FEF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E5BA471DE17A0D00A5FEF5 /* PBXTargetDependency */,
+			);
+			name = TaxiOnCliqTests;
+			productName = TaxiOnCliqTests;
+			productReference = 18E5BA451DE17A0D00A5FEF5 /* TaxiOnCliqTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18E5BA4F1DE17A0D00A5FEF5 /* TaxiOnCliqUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E5BA5F1DE17A0D00A5FEF5 /* Build configuration list for PBXNativeTarget "TaxiOnCliqUITests" */;
+			buildPhases = (
+				18E5BA4C1DE17A0D00A5FEF5 /* Sources */,
+				18E5BA4D1DE17A0D00A5FEF5 /* Frameworks */,
+				18E5BA4E1DE17A0D00A5FEF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E5BA521DE17A0D00A5FEF5 /* PBXTargetDependency */,
+			);
+			name = TaxiOnCliqUITests;
+			productName = TaxiOnCliqUITests;
+			productReference = 18E5BA501DE17A0D00A5FEF5 /* TaxiOnCliqUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E5BA261DE17A0D00A5FEF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Venkatesh Mandapati";
+				TargetAttributes = {
+					18E5BA2D1DE17A0D00A5FEF5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DJ45N73727;
+						ProvisioningStyle = Automatic;
+					};
+					18E5BA441DE17A0D00A5FEF5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18E5BA2D1DE17A0D00A5FEF5;
+					};
+					18E5BA4F1DE17A0D00A5FEF5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18E5BA2D1DE17A0D00A5FEF5;
+					};
+				};
+			};
+			buildConfigurationList = 18E5BA291DE17A0D00A5FEF5 /* Build configuration list for PBXProject "TaxiOnCliq" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E5BA251DE17A0D00A5FEF5;
+			productRefGroup = 18E5BA2F1DE17A0D00A5FEF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E5BA2D1DE17A0D00A5FEF5 /* TaxiOnCliq */,
+				18E5BA441DE17A0D00A5FEF5 /* TaxiOnCliqTests */,
+				18E5BA4F1DE17A0D00A5FEF5 /* TaxiOnCliqUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E5BA2C1DE17A0D00A5FEF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E5BA3F1DE17A0D00A5FEF5 /* LaunchScreen.storyboard in Resources */,
+				18E5BA3C1DE17A0D00A5FEF5 /* Assets.xcassets in Resources */,
+				18E5BA371DE17A0D00A5FEF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E5BA431DE17A0D00A5FEF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E5BA4E1DE17A0D00A5FEF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E5BA2A1DE17A0D00A5FEF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E5BA341DE17A0D00A5FEF5 /* ViewController.swift in Sources */,
+				18E5BA3A1DE17A0D00A5FEF5 /* TaxiOnCliq.xcdatamodeld in Sources */,
+				18E5BA321DE17A0D00A5FEF5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E5BA411DE17A0D00A5FEF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E5BA4A1DE17A0D00A5FEF5 /* TaxiOnCliqTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E5BA4C1DE17A0D00A5FEF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E5BA551DE17A0D00A5FEF5 /* TaxiOnCliqUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E5BA471DE17A0D00A5FEF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E5BA2D1DE17A0D00A5FEF5 /* TaxiOnCliq */;
+			targetProxy = 18E5BA461DE17A0D00A5FEF5 /* PBXContainerItemProxy */;
+		};
+		18E5BA521DE17A0D00A5FEF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E5BA2D1DE17A0D00A5FEF5 /* TaxiOnCliq */;
+			targetProxy = 18E5BA511DE17A0D00A5FEF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E5BA351DE17A0D00A5FEF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E5BA361DE17A0D00A5FEF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E5BA3D1DE17A0D00A5FEF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E5BA3E1DE17A0D00A5FEF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E5BA571DE17A0D00A5FEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18E5BA581DE17A0D00A5FEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E5BA5A1DE17A0D00A5FEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DJ45N73727;
+				INFOPLIST_FILE = TaxiOnCliq/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iDroid.TaxiOnCliq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18E5BA5B1DE17A0D00A5FEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DJ45N73727;
+				INFOPLIST_FILE = TaxiOnCliq/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iDroid.TaxiOnCliq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		18E5BA5D1DE17A0D00A5FEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaxiOnCliqTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iDroid.TaxiOnCliqTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxiOnCliq.app/TaxiOnCliq";
+			};
+			name = Debug;
+		};
+		18E5BA5E1DE17A0D00A5FEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaxiOnCliqTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iDroid.TaxiOnCliqTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxiOnCliq.app/TaxiOnCliq";
+			};
+			name = Release;
+		};
+		18E5BA601DE17A0D00A5FEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TaxiOnCliqUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iDroid.TaxiOnCliqUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TaxiOnCliq;
+			};
+			name = Debug;
+		};
+		18E5BA611DE17A0D00A5FEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TaxiOnCliqUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iDroid.TaxiOnCliqUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TaxiOnCliq;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E5BA291DE17A0D00A5FEF5 /* Build configuration list for PBXProject "TaxiOnCliq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E5BA571DE17A0D00A5FEF5 /* Debug */,
+				18E5BA581DE17A0D00A5FEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E5BA591DE17A0D00A5FEF5 /* Build configuration list for PBXNativeTarget "TaxiOnCliq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E5BA5A1DE17A0D00A5FEF5 /* Debug */,
+				18E5BA5B1DE17A0D00A5FEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E5BA5C1DE17A0D00A5FEF5 /* Build configuration list for PBXNativeTarget "TaxiOnCliqTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E5BA5D1DE17A0D00A5FEF5 /* Debug */,
+				18E5BA5E1DE17A0D00A5FEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E5BA5F1DE17A0D00A5FEF5 /* Build configuration list for PBXNativeTarget "TaxiOnCliqUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E5BA601DE17A0D00A5FEF5 /* Debug */,
+				18E5BA611DE17A0D00A5FEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18E5BA381DE17A0D00A5FEF5 /* TaxiOnCliq.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18E5BA391DE17A0D00A5FEF5 /* TaxiOnCliq.xcdatamodel */,
+			);
+			currentVersion = 18E5BA391DE17A0D00A5FEF5 /* TaxiOnCliq.xcdatamodel */;
+			path = TaxiOnCliq.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18E5BA261DE17A0D00A5FEF5 /* Project object */;
+}
